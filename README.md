@@ -24,7 +24,7 @@ To display the ``Solid`` you have to implement :
 
 
 ## UML diagrams
-```mermaid
+```
 sequenceDiagram
 main ->> Engine: drawSolid(solid)
 Note right of Engine: Engine use the solid<br> and it displays the <br> object in the specified <br> environment,<br> like a canvas.
@@ -45,6 +45,6 @@ main ->> Solid: addNode / addConnection
 * Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
 Note: in order to run the Example you must import Engine.jar in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOT
-AzNjkwOTg3XX0=
+eyJoaXN0b3J5IjpbLTk3NDQwOTYxNSw1NDg1MjQ5OTQsLTE3OD
+cxNDc3MjcsLTE5MDM2OTA5ODddfQ==
 -->
