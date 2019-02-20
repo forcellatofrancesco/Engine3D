@@ -42,7 +42,8 @@ main ->> Solid: addNode / addConnection
 
 ## V1.0.1
 * Added  a project example using JavaFX
-* Change the location of the function 
+* Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDEyMTE5MywtMTkwMzY5MDk4N119
+eyJoaXN0b3J5IjpbLTE3ODcxNDc3MjcsLTE5MDM2OTA5ODddfQ
+==
 -->
