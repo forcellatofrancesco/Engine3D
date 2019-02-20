@@ -43,8 +43,10 @@ main ->> Solid: addNode / addConnection
 ## V1.0.1
 * Added  a project example using JavaFX
 * Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
+
+
 Note: in order to run the Example you must import Engine.jar in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NTI0OTk0LDU0ODUyNDk5NCwtMTc4Nz
-E0NzcyNywtMTkwMzY5MDk4N119
+eyJoaXN0b3J5IjpbLTI0OTg1NDk0Niw1NDg1MjQ5OTQsLTE3OD
+cxNDc3MjcsLTE5MDM2OTA5ODddfQ==
 -->
