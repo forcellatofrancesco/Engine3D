@@ -39,6 +39,10 @@ main ->> Solid: addNode / addConnection
 * Create a solid by adding nodes and connections between them
 * Rotate a solid by X axes, Y axes, Z axes
 * Display a solid by implementing the drawing functions.
+
+## V1.0.1
+* Added  a project example using JavaFX
+* Change the location of the function 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM2OTA5ODddfQ==
+eyJoaXN0b3J5IjpbMjA2NDEyMTE5MywtMTkwMzY5MDk4N119
 -->
