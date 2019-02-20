@@ -136,39 +136,6 @@ public abstract class Engine {
     }
 
     /**
-     * Function used to make a cube
-     *
-     * @param size size of the cube
-     * @return the matrix that represent the cube
-     */
-    public static Solid makeCube(double size) {
-        double s = size / 2;
-        Solid res = new Solid();
-        res.addNode(s, -s, s);
-        res.addNode(-s, -s, s);
-        res.addNode(-s, s, s);
-        res.addNode(s, s, s);
-        res.addNode(s, -s, -s);
-        res.addNode(-s, -s, -s);
-        res.addNode(-s, s, -s);
-        res.addNode(s, s, -s);
-
-        res.addConnection(0, 1);
-        res.addConnection(0, 3);
-        res.addConnection(0, 4);
-        res.addConnection(1, 2);
-        res.addConnection(1, 5);
-        res.addConnection(2, 3);
-        res.addConnection(2, 6);
-        res.addConnection(3, 7);
-        res.addConnection(4, 5);
-        res.addConnection(4, 7);
-        res.addConnection(5, 6);
-        res.addConnection(6, 7);
-        return res;
-    }
-
-    /**
      * Function that transform a giver 3D matrix into a 2D matrix
      *
      * @param solid matrix with 3 dimensional coordinates
