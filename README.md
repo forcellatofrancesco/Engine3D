@@ -14,7 +14,7 @@ This project was inspired by a project created by [Daniel Shiffman](https://thec
 * ``Solid.java`` class used to create a ``Solid``
 
 
-## Classes usable
+> ## Classes usable
 To run this project you must at least use an ``Engine`` object and a ``Solid`` object. The ``Engine`` controls the representation of the ``Solid``, so you must create a ``Solid`` and add **nodes** to it, then you can add **connections** between the nodes.
 
 To display the ``Solid`` you have to implement :
@@ -41,7 +41,7 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMTU5NjUzLDE3ODM4MTA4ODIsLTE0Mz
+eyJoaXN0b3J5IjpbMjAyNzg3OTcxLDE3ODM4MTA4ODIsLTE0Mz
 Y3MDA2MTgsODI1ODIwOTAzLC0zOTA2NDIzMTIsLTg0NTQzMDEw
 LDU0ODUyNDk5NCwtMTc4NzE0NzcyNywtMTkwMzY5MDk4N119
 -->
