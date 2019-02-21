@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 class Graph {
 
-    ArrayList<ArrayList<Integer>> g; ///ArrayList of ArrayList that represent all the connections
+    private final ArrayList<ArrayList<Integer>> g; ///ArrayList of ArrayList that represent all the connections
 
     /**
      * Constructor

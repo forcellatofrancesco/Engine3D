@@ -8,8 +8,8 @@ import java.util.ArrayList;
  */
 public class Solid {
 
-    ArrayList<Point3D> v; //vector that represent nodes in a 3D space
-    Graph con; //Graph that contains all the connections
+    private ArrayList<Point3D> v; //vector that represent nodes in a 3D space
+    private Graph con; //Graph that contains all the connections
 
     /**
      * Constructor
