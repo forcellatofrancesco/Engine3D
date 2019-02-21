@@ -4,8 +4,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="example.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="example.FXMLDocumentController">
     <children>
-      <Canvas fx:id="canvas" height="500.0" layoutY="1.0" width="500.0" />
+      <Canvas fx:id="canvas" height="900.0" width="900.0" />
     </children>
 </AnchorPane>
