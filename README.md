@@ -1,5 +1,7 @@
-# DEVELOP BRANCH
+# DEVELOP BRANCH 
+This branch is used to test new features so it could not be stable. 
+## In testing:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTk5ODQ1Nl19
+eyJoaXN0b3J5IjpbMTM4MDQxMTUwN119
 -->
