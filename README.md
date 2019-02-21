@@ -26,7 +26,7 @@ To display the ``Solid`` you have to implement :
 ## UML diagrams
 ![UML](uml.svg)
 
-Thanks also to @davideporcu for helping me to realize this diagram.
+Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to realize this diagram.
 ## V1.0.0
 * Create a solid by adding nodes and connections between them
 * Rotate a solid by X axes, Y axes, Z axes
@@ -39,7 +39,7 @@ Thanks also to @davideporcu for helping me to realize this diagram.
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1ODIwOTAzLC0zOTA2NDIzMTIsLTg0NT
-QzMDEwLDU0ODUyNDk5NCwtMTc4NzE0NzcyNywtMTkwMzY5MDk4
-N119
+eyJoaXN0b3J5IjpbLTE0MzY3MDA2MTgsODI1ODIwOTAzLC0zOT
+A2NDIzMTIsLTg0NTQzMDEwLDU0ODUyNDk5NCwtMTc4NzE0Nzcy
+NywtMTkwMzY5MDk4N119
 -->
