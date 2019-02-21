@@ -177,12 +177,58 @@ public abstract class Engine {
         draw2DFigure(transform3Dto2D(s.getVector()), s.getConnections());
     }
 
+    /**
+     * Function to get the drawer
+     * @return object that draws
+     */
     public Object getDrawer() {
         return drawer;
     }
 
+    /**
+     * Function to set the drawer
+     * @param drawer object that draws
+     */
     public void setDrawer(Object drawer) {
         this.drawer = drawer;
+    }
+    
+    /**
+     * Function that translate a solid by a given vector
+     * 
+     * @param s solid to translate
+     * @param vector Point3D object representing a vector pointing in origin of the axes
+     */
+    public static void translate(Solid s, Point3D vector) {
+        s.setVector(matrixToVector(Matrix.translate(points3DToMatrix(s.getVector()), point3DToArray(vector))));
+    }
+    
+    /**
+     * Function that checks if a given solid is drawn outside the canvas
+     * 
+     * @param s solid to check
+     * @return boolean value (result of the test)
+     */
+    public boolean isOutsideCanvas(Solid s) {
+        boolean ris = false;
+        ArrayList<Point> pointsList = transform3Dto2D(s.getVector());
+        int cursor = 0;
+        while (!ris && cursor < pointsList.size()) {
+            Point point = pointsList.get(cursor);
+            System.out.println("x: "+point.getX() +" Y: "+point.getY());
+            ris = point.getX() < -width/2 || point.getX() > width/2 || point.getY() < -height/2 || point.getY() > height/2;
+            cursor++;
+        }
+        return ris;
+    }
+    
+    /**
+     * Function that scale a given solid
+     * @param s solid to scale
+     * @param size size to scale the solid
+     */
+    public void scale(Solid s, double size){
+        s.setVector(matrixToVector(Matrix.scale(points3DToMatrix(s.getVector()), size)));
     }
 
     /**

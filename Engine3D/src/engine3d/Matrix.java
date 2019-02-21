@@ -54,7 +54,7 @@ public class Matrix {
         }
         return res;
     }
-    
+
     /**
      * This is the matrix to give the perspective to the cube
      */
@@ -103,6 +103,51 @@ public class Matrix {
             {sin(angle), cos(angle), 0.0},
             {0.0, 0.0, 1.0}
         };
+    }
+
+    /**
+     * Function that returns the translated matrix of the vector
+     *
+     * @param matrix
+     * @param vector
+     * @return matrix translated
+     */
+    public static double[][] translate(double[][] matrix, double[] vector) {
+        if (matrix[0].length != vector.length) {
+            throw new MatrixException("The number of columns of the a matrix has to match the length of the translation vector");
+        }
+
+        double[][] result = new double[matrix.length][vector.length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < vector.length; j++) {
+                result[i][j] = matrix[i][j] + vector[j];
+            }
+        }
+        return result;
+    }
+
+    public static double[][] scale(double[][] matrix, double size) {
+        double[][] id = new double[][]{
+            {size, 0, 0},
+            {0, size, 0},
+            {0, 0, size}
+        };
+        if (matrix[0].length != id.length) {
+            throw new MatrixException("The number of columns of the a matrix has to match the length of the translation vector");
+        }
+
+        double[][] res = new double[matrix.length][id.length];
+        for (int i = 0; i < matrix.length; i++) {
+            double[][] h = new double[3][1];
+            h[0][0] = matrix[i][0];
+            h[1][0] = matrix[i][1];
+            h[2][0] = matrix[i][2];
+            double[][] aux = multiply(id, h);
+            res[i][0] = aux[0][0];
+            res[i][1] = aux[1][0];
+            res[i][2] = aux[2][0];
+        }
+        return res;
     }
 
     /**

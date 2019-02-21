@@ -1,6 +1,7 @@
 package example;
 
 import engine3d.Engine;
+import engine3d.Point3D;
 import engine3d.Solid;
 import static engine3d.Solid.makeCube;
 import java.net.URL;
@@ -17,10 +18,10 @@ import javafx.scene.effect.MotionBlur;
  * @author Francesco Forcellato
  */
 public class FXMLDocumentController implements Initializable {
-    
+
     @FXML
     private Canvas canvas;
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         GraphicsContext gc = canvas.getGraphicsContext2D();
@@ -75,9 +76,11 @@ public class FXMLDocumentController implements Initializable {
         x.addConnection(2, 3);
         x.addConnection(3, 4);
 
-        Solid c = makeCube(200);
+        Solid c = makeCube(50);
         AnimationTimer at = new AnimationTimer() {
             double angle = 0.001;
+            Point3D vector1 = randomVector();
+            double scale = 1.0001;
 
             @Override
             public void handle(long now) {
@@ -87,16 +90,34 @@ public class FXMLDocumentController implements Initializable {
                 Engine.rotateX(x, angle);
                 Engine.rotateY(x, -angle);
                 Engine.rotateZ(x, angle * 2.0);
-                Engine.rotateX(c, -angle);
-                Engine.rotateY(c, angle);
-                Engine.rotateZ(c, -angle * 2.0);
+                //Engine.rotateX(c, -angle);
+                //Engine.rotateY(c, angle);
+                //Engine.rotateZ(c, -angle * 2.0);
+
                 mb.setAngle(-angle);
                 gc.setEffect(mb);
+
+                if (!en.isOutsideCanvas(c)) {
+                    Engine.translate(c, vector1);
+                } else {
+                    vector1 = randomVector();
+                    Engine.translate(c, vector1);
+                }
+                en.scale(x, scale);
+                en.scale(c, scale);
                 en.drawSolid(x);
                 en.drawSolid(c);
             }
         };
         at.start();
-    }    
-    
+    }
+
+    private double randomDoubleSign() {
+        return Math.random() > 0.5 ? -1.0 : 1.0;
+    }
+
+    private Point3D randomVector() {
+        return new Point3D(randomDoubleSign() * Math.random(), randomDoubleSign() * Math.random(), randomDoubleSign() * Math.random());
+    }
+
 }
