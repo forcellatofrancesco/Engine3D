@@ -38,9 +38,9 @@
      inkscape:window-height="674"
      id="namedview1208"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="491.14634"
-     inkscape:cy="395.89129"
+     inkscape:zoom="2.7289902"
+     inkscape:cx="233.95718"
+     inkscape:cy="664.61829"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -51,8 +51,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <text
        id="text4"
        y="12.474323"
@@ -6192,6 +6191,17 @@
            inkscape:connector-curvature="0"
            style="fill:none;stroke:#000000;stroke-miterlimit:10" />
       </g>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(-109.75223,-25.25)"
+       id="g1093">
+      <path
+         style="fill:none;stroke:#000000;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         d="m 341,56 v 10 h 10 L 341,56"
+         stroke-miterlimit="10"
+         id="path1091" />
     </g>
   </g>
 </svg>
