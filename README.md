@@ -23,10 +23,12 @@ To display the ``Solid`` you have to implement :
 >- _closePath(Object drawer);_ which allows closing a path (requested form some components like GraphicsContext of JavaFX)
 
 
-## UML diagrams
+# UML diagrams
 ![UML](uml.svg)
 
 Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to realize this diagram.
+
+
 ## V1.0.0
 * Create a solid by adding nodes and connections between them
 * Rotate a solid by X axis, Y axis, Z axis
@@ -39,7 +41,8 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzgxMDg4MiwtMTQzNjcwMDYxOCw4Mj
-U4MjA5MDMsLTM5MDY0MjMxMiwtODQ1NDMwMTAsNTQ4NTI0OTk0
-LC0xNzg3MTQ3NzI3LC0xOTAzNjkwOTg3XX0=
+eyJoaXN0b3J5IjpbLTE4NTg3NTQzMjUsMTc4MzgxMDg4MiwtMT
+QzNjcwMDYxOCw4MjU4MjA5MDMsLTM5MDY0MjMxMiwtODQ1NDMw
+MTAsNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOTAzNjkwOTg3XX
+0=
 -->
