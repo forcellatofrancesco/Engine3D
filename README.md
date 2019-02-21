@@ -20,9 +20,9 @@ Note: in order to run the ``Example`` you must import [``Engine3D.jar``](Engine3
 
 
 > ## Classes usable
-To run this project you must at least use an ``Engine`` object and a ``Solid`` object. The ``Engine`` controls the representation of the ``Solid``, so you must create a ``Solid`` and add **nodes** to it, then you can add **connections** between the nodes.
+To use this Java Library     you must at least use an ``Engine`` object and a ``Solid`` object. The ``Engine`` controls the representation of the ``Solid``, so you must create a ``Solid`` and add **nodes** to it, then you can add **connections** between the nodes.
 
-To display the ``Solid`` you have to implement :
+To display the ``Solid`` you have to implement these methods in the:
 >- _drawLine(double x0, double y0, double x1, double y1, Object drawer);_ which allows drawing a line between two points.
 >- _beginPath(Object drawer);_ which allows beginning a path (requested from some components like GraphicsContext of JavaFX)
 >- _closePath(Object drawer);_ which allows closing a path (requested form some components like GraphicsContext of JavaFX)
@@ -43,7 +43,8 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 * Added  a project example using JavaFX.
 * Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyNTAyMTIzLDE3ODM4MTA4ODIsLTE0Mz
-Y3MDA2MTgsODI1ODIwOTAzLC0zOTA2NDIzMTIsLTg0NTQzMDEw
-LDU0ODUyNDk5NCwtMTc4NzE0NzcyNywtMTkwMzY5MDk4N119
+eyJoaXN0b3J5IjpbMTI3MjU4MDU4MCw1NDI1MDIxMjMsMTc4Mz
+gxMDg4MiwtMTQzNjcwMDYxOCw4MjU4MjA5MDMsLTM5MDY0MjMx
+MiwtODQ1NDMwMTAsNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOT
+AzNjkwOTg3XX0=
 -->
