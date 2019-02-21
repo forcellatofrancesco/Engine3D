@@ -6,9 +6,9 @@ This project was inspired by a project created by [Daniel Shiffman](https://thec
 
 
 # Classes
-> ``Engine.java`` class used to interact with a ``Solid`` and display it.
-> ``Graph.java`` class used to create a graph of the connections in order to connect multiple nodes to each other.
-> ``Matrix.java`` it contains all the methods used for managing matrices multiplications.
+* ``Engine.java`` class used to interact with a ``Solid`` and display it.
+* ``Graph.java`` class used to create a graph of the connections in order to connect multiple nodes to each other.
+* ``Matrix.java`` it contains all the methods used for managing matrices multiplications.
 > ``Point.java`` class used to represent a 2D point.
 > ``Point3D.java`` class used to represent a 3D point.
 > ``Solid.java`` class used to create a ``Solid``
@@ -41,7 +41,7 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTA2OTgyNywxNzgzODEwODgyLC0xND
+eyJoaXN0b3J5IjpbMTAxNTIwNDg0MSwxNzgzODEwODgyLC0xND
 M2NzAwNjE4LDgyNTgyMDkwMywtMzkwNjQyMzEyLC04NDU0MzAx
 MCw1NDg1MjQ5OTQsLTE3ODcxNDc3MjcsLTE5MDM2OTA5ODddfQ
 ==
