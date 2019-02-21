@@ -4,6 +4,8 @@
 This project allows to create solids and display them into whatever you want.
 This project was inspired by a project created by [Daniel Shiffman](https://thecodingtrain.com/CodingChallenges/112-3d-rendering) in [Processing](https://processing.org/) but I have made it in the standard Java, so no extra Framework needed
 
+**Installation:**
+
 If you want only the compiled code, in order to add this library, download [Engine3D.jar](Engine3D.jar)
 # Classes
 * ``Engine.java`` class used to interact with a ``Solid`` and display it.
@@ -41,7 +43,7 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NzgwMTU1LDE3ODM4MTA4ODIsLTE0Mz
+eyJoaXN0b3J5IjpbNDQyMTczNjMxLDE3ODM4MTA4ODIsLTE0Mz
 Y3MDA2MTgsODI1ODIwOTAzLC0zOTA2NDIzMTIsLTg0NTQzMDEw
 LDU0ODUyNDk5NCwtMTc4NzE0NzcyNywtMTkwMzY5MDk4N119
 -->
