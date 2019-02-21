@@ -28,21 +28,21 @@ To display the ``Solid`` you have to implement :
 
 Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to realize this diagram.
 
-
-## V1.0.0
+# Versions:
+>## V1.0.0
 * Create a solid by adding nodes and connections between them
 * Rotate a solid by X axis, Y axis, Z axis
 * Display a solid by implementing the drawing functions.
 
-## V1.0.1
+>## V1.0.1
 * Added  a project example using JavaFX
 * Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
 
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg3NTQzMjUsMTc4MzgxMDg4MiwtMT
-QzNjcwMDYxOCw4MjU4MjA5MDMsLTM5MDY0MjMxMiwtODQ1NDMw
-MTAsNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOTAzNjkwOTg3XX
-0=
+eyJoaXN0b3J5IjpbLTgxNTA2OTgyNywxNzgzODEwODgyLC0xND
+M2NzAwNjE4LDgyNTgyMDkwMywtMzkwNjQyMzEyLC04NDU0MzAx
+MCw1NDg1MjQ5OTQsLTE3ODcxNDc3MjcsLTE5MDM2OTA5ODddfQ
+==
 -->
