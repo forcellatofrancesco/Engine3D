@@ -6,7 +6,7 @@ This project was inspired by a project created by [Daniel Shiffman](https://thec
 
 **Installation:**
 
-If you want only the compiled code, in order to add this library to your Java project, download [Engine3D.jar](Engine3D.jar)
+If you only want the compiled code, in order to add this library to your Java project, download [Engine3D.jar](Engine3D.jar)
 # Classes
 * ``Engine.java`` class used to interact with a ``Solid`` and display it.
 * ``Graph.java`` class used to create a graph of the connections in order to connect multiple nodes to each other.
@@ -33,7 +33,7 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 # Versions:
 >## V1.0.0
 * Create a solid by adding nodes and connections between them
-* Rotate a solid by X axis, Y axis, Z axis
+* Rotate a solid by X-axis, Y-axis, Z-axis
 * Display a solid by implementing the drawing functions.
 
 >## V1.0.1
@@ -43,8 +43,8 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODQzMzAzMiwxNzgzODEwODgyLC0xND
-M2NzAwNjE4LDgyNTgyMDkwMywtMzkwNjQyMzEyLC04NDU0MzAx
-MCw1NDg1MjQ5OTQsLTE3ODcxNDc3MjcsLTE5MDM2OTA5ODddfQ
-==
+eyJoaXN0b3J5IjpbLTExMzEwMzY1MDUsMTc4MzgxMDg4MiwtMT
+QzNjcwMDYxOCw4MjU4MjA5MDMsLTM5MDY0MjMxMiwtODQ1NDMw
+MTAsNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOTAzNjkwOTg3XX
+0=
 -->
