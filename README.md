@@ -2,11 +2,12 @@
 **Francesco Forcellato**
 
 This project allows to create solids and display them into whatever you want.
-This project was inspired by a project created by [Daniel Shiffman](https://thecodingtrain.com/CodingChallenges/112-3d-rendering) in [Processing](https://processing.org/) but I have made it in the standard Java, so no extra Framework needed
+This project was inspired by a project created by [Daniel Shiffman](https://thecodingtrain.com/CodingChallenges/112-3d-rendering) in [Processing](https://processing.org/) but I have made it in the standard Java, so no extra Framework needed.
 
 **Installation:**
 
-If you only want the compiled code, in order to add this library to your Java project, download [Engine3D.jar](Engine3D.jar)
+If you only want the compiled code, in order to add this library to your Java project, download [Engine3D.jar](Engine3D.jar).
+
 # Classes
 * ``Engine.java`` class used to interact with a ``Solid`` and display it.
 * ``Graph.java`` class used to create a graph of the connections in order to connect multiple nodes to each other.
@@ -32,19 +33,16 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 # Versions:
 >## V1.0.0
-* Create a solid by adding nodes and connections between them
-* Rotate a solid by X-axis, Y-axis, Z-axis
+* Create a solid by adding nodes and connections between them.
+* Rotate a solid by X-axis, Y-axis, Z-axis.
 * Display a solid by implementing the drawing functions.
 
 >## V1.0.1
-* Added  a project example using JavaFX
+* Added  a project example using JavaFX.
 * Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
-
-
-Note: in order to run the ``Example`` you must import ``Engine.jar`` in the libraries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzEwMzY1MDUsMTc4MzgxMDg4MiwtMT
-QzNjcwMDYxOCw4MjU4MjA5MDMsLTM5MDY0MjMxMiwtODQ1NDMw
-MTAsNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOTAzNjkwOTg3XX
-0=
+eyJoaXN0b3J5IjpbMTY2MDEyNjUxOCwxNzgzODEwODgyLC0xND
+M2NzAwNjE4LDgyNTgyMDkwMywtMzkwNjQyMzEyLC04NDU0MzAx
+MCw1NDg1MjQ5OTQsLTE3ODcxNDc3MjcsLTE5MDM2OTA5ODddfQ
+==
 -->
