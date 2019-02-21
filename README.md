@@ -23,9 +23,9 @@ Note: in order to run the ``Example`` you must import [``Engine3D.jar``](Engine3
 To use this Java Library     you must at least use an ``Engine`` object and a ``Solid`` object. The ``Engine`` controls the representation of the ``Solid``, so you must create a ``Solid`` and add **nodes** to it, then you can add **connections** between the nodes.
 
 To display the ``Solid`` you have to implement these methods in the ``Engine`` object:
->- _drawLine(double x0, double y0, double x1, double y1, Object drawer);_ which allows drawing a line between two points.
->- _beginPath(Object drawer);_ which allows beginning a path (requested from some components like GraphicsContext of JavaFX)
->- _closePath(Object drawer);_ which allows closing a path (requested form some components like GraphicsContext of JavaFX)
+- _drawLine(double x0, double y0, double x1, double y1, Object drawer);_ which allows drawing a line between two points.
+- _beginPath(Object drawer);_ which allows beginning a path (requested from some components like GraphicsContext of JavaFX)
+- _closePath(Object drawer);_ which allows closing a path (requested form some components like GraphicsContext of JavaFX)
 
 
 # UML diagrams
@@ -46,8 +46,8 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 
 Check out develop branch to see the newest features in testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTk1NjAwLC00NzE5MTIzNDUsNTQyNT
-AyMTIzLDE3ODM4MTA4ODIsLTE0MzY3MDA2MTgsODI1ODIwOTAz
-LC0zOTA2NDIzMTIsLTg0NTQzMDEwLDU0ODUyNDk5NCwtMTc4Nz
-E0NzcyNywtMTkwMzY5MDk4N119
+eyJoaXN0b3J5IjpbLTEyMzU0MTg0OTQsMjA0MTk1NjAwLC00Nz
+E5MTIzNDUsNTQyNTAyMTIzLDE3ODM4MTA4ODIsLTE0MzY3MDA2
+MTgsODI1ODIwOTAzLC0zOTA2NDIzMTIsLTg0NTQzMDEwLDU0OD
+UyNDk5NCwtMTc4NzE0NzcyNywtMTkwMzY5MDk4N119
 -->
