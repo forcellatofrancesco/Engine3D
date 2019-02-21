@@ -42,9 +42,12 @@ Thanks also to [@davideporcu](https://github.com/davideporcu) for helping me to 
 >## V1.0.1
 * Added  a project example using JavaFX.
 * Change the location of the function ``makeCube(double size)``, now it is in the ``Solid`` class.
+
+
+Check out develop branch to see the newest features in testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTkxMjM0NSw1NDI1MDIxMjMsMTc4Mz
-gxMDg4MiwtMTQzNjcwMDYxOCw4MjU4MjA5MDMsLTM5MDY0MjMx
-MiwtODQ1NDMwMTAsNTQ4NTI0OTk0LC0xNzg3MTQ3NzI3LC0xOT
-AzNjkwOTg3XX0=
+eyJoaXN0b3J5IjpbMjA0MTk1NjAwLC00NzE5MTIzNDUsNTQyNT
+AyMTIzLDE3ODM4MTA4ODIsLTE0MzY3MDA2MTgsODI1ODIwOTAz
+LC0zOTA2NDIzMTIsLTg0NTQzMDEwLDU0ODUyNDk5NCwtMTc4Nz
+E0NzcyNywtMTkwMzY5MDk4N119
 -->
